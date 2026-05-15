@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Skill(stdd)",
+      "Skill(stdd-understand)",
+      "WebFetch(domain:pypi.org)",
+      "WebFetch(domain:github.com)",
+      "Skill(stdd-spec)",
+      "Skill(stdd-slice)",
+      "Skill(stdd-build)",
+      "Skill(stdd-verify)",
+      "Bash(python -c \"import yaml; yaml.safe_load\\(open\\('D:/mycode/projectdemo/.claude/skills/visio-flowchart/SKILL.md'\\).read\\(\\).split\\('---'\\)[1]\\)\")",
+      "Bash(python -c \"import json; json.load\\(open\\('D:/mycode/projectdemo/.mcp.json'\\)\\); print\\('JSON OK'\\)\")",
+      "Bash(python *)",
+      "Skill(stdd-deliver)",
+      "Bash(cp -r \"D:/mycode/projectdemo/.claude\" \"D:/mycode/projectdemo/visio-flowchart.git/\")",
+      "Bash(cp \"D:/mycode/projectdemo/.mcp.json\" \"D:/mycode/projectdemo/visio-flowchart.git/\")",
+      "Bash(cp -r \"D:/mycode/projectdemo/.stdd\" \"D:/mycode/projectdemo/visio-flowchart.git/\")"
+    ]
+  }
+}

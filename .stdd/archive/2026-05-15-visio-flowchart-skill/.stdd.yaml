@@ -1,0 +1,14 @@
+phase: verify
+status: completed
+created: 2026-05-15
+name: visio-flowchart-skill
+confirmed_at: "2026-05-15T20:50:00+08:00"
+long_range:
+  enabled: true
+  mode: "full_auto"
+  pre_auth_completed: true
+  pre_auth_timestamp: "2026-05-15T20:52:00+08:00"
+artifacts:
+  - .claude/skills/visio-flowchart/SKILL.md
+  - .claude/skills/visio-flowchart/standards.md
+  - .mcp.json
